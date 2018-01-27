@@ -1,0 +1,52 @@
+body{
+
+background: rgb(137, 142, 140);
+}
+
+.container {
+  transform: translate(2px, -22px);
+
+
+}
+.column {
+  width: 33.33%;
+  height: 1200px;
+  border-radius: 21px;
+  background: linear-gradient(to left, #ff9966 0%, #99ccff 100%);
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 10px 5px 5px black;
+  float: left;
+
+   padding: 85px 10px ;
+}
+
+img {
+   display:inline-block;
+  width: 500px;
+  height: 400px;
+}
+
+.row:after{
+  content:"";
+  display:table;
+  clear:both;
+}
+
+p:hover, h1,h2,h3,:hover, column:hover
+{
+   top: -20px;
+      box-shadow: 10px 10px 6px rgba(0, 0, 0, 0.2);
+  text-shadow: 5px 5px 5px white;
+}
+
+p{
+  padding: 0 1rem;
+      font-size: 16px;
+      font-weight: 400;
+}
+
+.column {
+    column-gap:50px;
+}
